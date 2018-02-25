@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69AAF68E20420BD400D4C7D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AAF68D20420BD400D4C7D5 /* AppDelegate.swift */; };
+		69AAF69020420BD400D4C7D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AAF68F20420BD400D4C7D5 /* ViewController.swift */; };
+		69AAF69320420BD400D4C7D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69AAF69120420BD400D4C7D5 /* Main.storyboard */; };
+		69AAF69520420BD400D4C7D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69AAF69420420BD400D4C7D5 /* Assets.xcassets */; };
+		69AAF69820420BD400D4C7D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69AAF69620420BD400D4C7D5 /* LaunchScreen.storyboard */; };
+<<<<<<< Updated upstream
+		69AAF71A2042119300D4C7D5 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AAF7192042119300D4C7D5 /* SocketIOManager.swift */; };
+		CAC4FC3B20428706007AC103 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4FC3A20428706007AC103 /* MainViewController.swift */; };
+		CAC4FC3D20428D7B007AC103 /* ControlPointInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4FC3C20428D7B007AC103 /* ControlPointInfoViewController.swift */; };
+		CAC4FC3F20428D98007AC103 /* FriendlyUnitInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4FC3E20428D98007AC103 /* FriendlyUnitInfoViewController.swift */; };
+		CAC4FC4120428F20007AC103 /* EnemyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4FC4020428F20007AC103 /* EnemyInfoViewController.swift */; };
+		CAC4FC43204290A5007AC103 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = CAC4FC42204290A5007AC103 /* sample.json */; };
+=======
+>>>>>>> Stashed changes
+		D5884D507DBD08A2F832BAD4 /* Pods_SABRE_TCNJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F2F26FA9590E435CAD9B9F /* Pods_SABRE_TCNJ.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05F2F26FA9590E435CAD9B9F /* Pods_SABRE_TCNJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SABRE_TCNJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CD2464A6B3D223271F695A /* Pods-SABRE-TCNJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SABRE-TCNJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-SABRE-TCNJ/Pods-SABRE-TCNJ.release.xcconfig"; sourceTree = "<group>"; };
+		69AAF68A20420BD400D4C7D5 /* SABRE-TCNJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SABRE-TCNJ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69AAF68D20420BD400D4C7D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69AAF68F20420BD400D4C7D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69AAF69220420BD400D4C7D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69AAF69420420BD400D4C7D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69AAF69720420BD400D4C7D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69AAF69920420BD400D4C7D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94CDF0C9A8D1B6F57F65FB63 /* Pods-SABRE-TCNJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SABRE-TCNJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SABRE-TCNJ/Pods-SABRE-TCNJ.debug.xcconfig"; sourceTree = "<group>"; };
+		CAC4FC3A20428706007AC103 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "/Users/brandon/Github/SABRE-TCNJ/SABRE-TCNJ/MainViewController.swift"; sourceTree = "<absolute>"; };
+		CAC4FC3C20428D7B007AC103 /* ControlPointInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPointInfoViewController.swift; sourceTree = "<group>"; };
+		CAC4FC3E20428D98007AC103 /* FriendlyUnitInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendlyUnitInfoViewController.swift; sourceTree = "<group>"; };
+		CAC4FC4020428F20007AC103 /* EnemyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyInfoViewController.swift; sourceTree = "<group>"; };
+		CAC4FC42204290A5007AC103 /* sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69AAF68720420BD400D4C7D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5884D507DBD08A2F832BAD4 /* Pods_SABRE_TCNJ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01DBEE8496585F30E369789F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94CDF0C9A8D1B6F57F65FB63 /* Pods-SABRE-TCNJ.debug.xcconfig */,
+				19CD2464A6B3D223271F695A /* Pods-SABRE-TCNJ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0DAA4D6776C773B7F928CD63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05F2F26FA9590E435CAD9B9F /* Pods_SABRE_TCNJ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69AAF68120420BD400D4C7D5 = {
+			isa = PBXGroup;
+			children = (
+				CAC4FC42204290A5007AC103 /* sample.json */,
+				69AAF68C20420BD400D4C7D5 /* SABRE-TCNJ */,
+				69AAF68B20420BD400D4C7D5 /* Products */,
+				01DBEE8496585F30E369789F /* Pods */,
+				0DAA4D6776C773B7F928CD63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69AAF68B20420BD400D4C7D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69AAF68A20420BD400D4C7D5 /* SABRE-TCNJ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69AAF68C20420BD400D4C7D5 /* SABRE-TCNJ */ = {
+			isa = PBXGroup;
+			children = (
+				69AAF6A020420C0600D4C7D5 /* Supporting Files */,
+				CAC4FC3A20428706007AC103 /* MainViewController.swift */,
+				69AAF68F20420BD400D4C7D5 /* ViewController.swift */,
+				69AAF69120420BD400D4C7D5 /* Main.storyboard */,
+				69AAF69920420BD400D4C7D5 /* Info.plist */,
+<<<<<<< Updated upstream
+				69AAF7192042119300D4C7D5 /* SocketIOManager.swift */,
+				CAC4FC3C20428D7B007AC103 /* ControlPointInfoViewController.swift */,
+				CAC4FC3E20428D98007AC103 /* FriendlyUnitInfoViewController.swift */,
+				CAC4FC4020428F20007AC103 /* EnemyInfoViewController.swift */,
+=======
+>>>>>>> Stashed changes
+			);
+			path = "SABRE-TCNJ";
+			sourceTree = "<group>";
+		};
+		69AAF6A020420C0600D4C7D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69AAF69420420BD400D4C7D5 /* Assets.xcassets */,
+				69AAF69620420BD400D4C7D5 /* LaunchScreen.storyboard */,
+				69AAF68D20420BD400D4C7D5 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69AAF68920420BD400D4C7D5 /* SABRE-TCNJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69AAF69C20420BD400D4C7D5 /* Build configuration list for PBXNativeTarget "SABRE-TCNJ" */;
+			buildPhases = (
+				4AF4735A9D199809EAF3E51A /* [CP] Check Pods Manifest.lock */,
+				69AAF68620420BD400D4C7D5 /* Sources */,
+				69AAF68720420BD400D4C7D5 /* Frameworks */,
+				69AAF68820420BD400D4C7D5 /* Resources */,
+				C066EF0A2577CDD20EB9F072 /* [CP] Embed Pods Frameworks */,
+				3580600FB830ABF53356094D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SABRE-TCNJ";
+			productName = "SABRE-TCNJ";
+			productReference = 69AAF68A20420BD400D4C7D5 /* SABRE-TCNJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69AAF68220420BD400D4C7D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "TCNJ IMPL";
+				TargetAttributes = {
+					69AAF68920420BD400D4C7D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 69AAF68520420BD400D4C7D5 /* Build configuration list for PBXProject "SABRE-TCNJ" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69AAF68120420BD400D4C7D5;
+			productRefGroup = 69AAF68B20420BD400D4C7D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69AAF68920420BD400D4C7D5 /* SABRE-TCNJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69AAF68820420BD400D4C7D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69AAF69820420BD400D4C7D5 /* LaunchScreen.storyboard in Resources */,
+				CAC4FC43204290A5007AC103 /* sample.json in Resources */,
+				69AAF69520420BD400D4C7D5 /* Assets.xcassets in Resources */,
+				69AAF69320420BD400D4C7D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3580600FB830ABF53356094D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SABRE-TCNJ/Pods-SABRE-TCNJ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AF4735A9D199809EAF3E51A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SABRE-TCNJ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C066EF0A2577CDD20EB9F072 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SABRE-TCNJ/Pods-SABRE-TCNJ-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BlueSocket/Socket.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Socket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SABRE-TCNJ/Pods-SABRE-TCNJ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69AAF68620420BD400D4C7D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69AAF69020420BD400D4C7D5 /* ViewController.swift in Sources */,
+				CAC4FC3D20428D7B007AC103 /* ControlPointInfoViewController.swift in Sources */,
+				69AAF68E20420BD400D4C7D5 /* AppDelegate.swift in Sources */,
+<<<<<<< Updated upstream
+				CAC4FC4120428F20007AC103 /* EnemyInfoViewController.swift in Sources */,
+				CAC4FC3F20428D98007AC103 /* FriendlyUnitInfoViewController.swift in Sources */,
+				69AAF71A2042119300D4C7D5 /* SocketIOManager.swift in Sources */,
+				CAC4FC3B20428706007AC103 /* MainViewController.swift in Sources */,
+=======
+>>>>>>> Stashed changes
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69AAF69120420BD400D4C7D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69AAF69220420BD400D4C7D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69AAF69620420BD400D4C7D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69AAF69720420BD400D4C7D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69AAF69A20420BD400D4C7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69AAF69B20420BD400D4C7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69AAF69D20420BD400D4C7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94CDF0C9A8D1B6F57F65FB63 /* Pods-SABRE-TCNJ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C26WBP36T2;
+				INFOPLIST_FILE = "SABRE-TCNJ/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skyler.maxwell.SABRE-TCNJ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69AAF69E20420BD400D4C7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CD2464A6B3D223271F695A /* Pods-SABRE-TCNJ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C26WBP36T2;
+				INFOPLIST_FILE = "SABRE-TCNJ/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skyler.maxwell.SABRE-TCNJ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69AAF68520420BD400D4C7D5 /* Build configuration list for PBXProject "SABRE-TCNJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69AAF69A20420BD400D4C7D5 /* Debug */,
+				69AAF69B20420BD400D4C7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69AAF69C20420BD400D4C7D5 /* Build configuration list for PBXNativeTarget "SABRE-TCNJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69AAF69D20420BD400D4C7D5 /* Debug */,
+				69AAF69E20420BD400D4C7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69AAF68220420BD400D4C7D5 /* Project object */;
+}

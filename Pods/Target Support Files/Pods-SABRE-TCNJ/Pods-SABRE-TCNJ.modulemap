@@ -1,0 +1,6 @@
+framework module Pods_SABRE_TCNJ {
+  umbrella header "Pods-SABRE-TCNJ-umbrella.h"
+
+  export *
+  module * { export * }
+}

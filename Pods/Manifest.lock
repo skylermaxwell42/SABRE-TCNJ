@@ -1,0 +1,24 @@
+PODS:
+  - BlueSocket (0.12.94)
+  - Socket.IO-Client-Swift (13.1.1):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.4)
+  - SwiftSocket (2.0.2)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - BlueSocket
+  - Socket.IO-Client-Swift (~> 13.1.0)
+  - SwiftSocket
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  BlueSocket: 184ff448002475bfb5d676286c2458da5d971f47
+  Socket.IO-Client-Swift: f22222913f29801e30ae0df712db663ec096edc2
+  Starscream: f5da93fe6984c77b694366bf7299b7dc63a76f26
+  SwiftSocket: 6f4c9c63fbc5c1d61188936bb3c599fd546f40ae
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 77f269a931cb78df2ed96124a779c2bc9c1b31ce
+
+COCOAPODS: 1.4.0
