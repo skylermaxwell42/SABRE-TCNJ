@@ -1,6 +1,6 @@
 //
 //  MainViewController.swift
-//  
+//  SABRE-TCNJ
 //
 //  Created by Brandon Siebert on 2/25/18.
 //
@@ -26,6 +26,7 @@ class MainViewController: UIViewController, UITextFieldDelegate, CLLocationManag
     var error: NSError?
     let encoder = JSONEncoder()
     let decoder = JSONDecoder()
+    
     struct UserData: Codable {
         let userName: String?
         let latitude: String?
@@ -52,7 +53,6 @@ class MainViewController: UIViewController, UITextFieldDelegate, CLLocationManag
     let arrPins: [MKPointAnnotation] = []
     
     //  ----------------------- Place Pins --------------------------------
-    
     func placePin(coordinates: (Float, Float), title: String) {
         let newLoc = CLLocationCoordinate2DMake(CLLocationDegrees(coordinates.0), CLLocationDegrees(coordinates.1))
         // Drop a pin
@@ -77,8 +77,6 @@ class MainViewController: UIViewController, UITextFieldDelegate, CLLocationManag
     func digestData(data: positionState) {
     }
     
-    
- 
     func sendGPSToServer(location: CLLocation!) {
         //let userStartComsToServer = String(data: userStartJSON, encoding: .utf8)
         //socket.write(string: userStartComsToServer!)

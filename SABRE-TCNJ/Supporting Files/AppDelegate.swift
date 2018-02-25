@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var json: JSON = []
     
 
-    //--------------- Implementing for SocketIO ------------------
+    //--------------- Implementing WebSockets  ------------------
     func applicationDidBecomeActive(_ application: UIApplication) {
         socket = WebSocket(url: URL(string: "ws://sabretcnj.herokuapp.com/:42864")!, protocols: ["sabre"])
         socket.connect()
@@ -42,7 +42,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
-        //SocketIOManager.sharedInstance.closeConnection()
     }
     //-----------------------------------------------------------
     

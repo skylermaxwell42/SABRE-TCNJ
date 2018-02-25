@@ -31,23 +31,7 @@ class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDe
         let latitude: String?
         let longitude: String?
     }
-    struct positionState: Decodable {
-        let userName: String?
-        let latitude: Float?
-        let longitude: Float?
-        let amount: Int?
-        let moveSpeed: Float?
-        let defense: Int?
-        let attack: Int?
-        let generate: Int?
-    }
-    struct moveCluster: Encodable {
-        let id: Int?                    //  Index of Object Array
-        let amount: Int?
-        let from: [Float?]
-        let to: [Float?]
-        let first: Bool?
-    }
+    
     //  ----------------------- User Interaction --------------------------
     @IBOutlet weak var userName: UITextField!
     
@@ -78,7 +62,6 @@ class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDe
         sendGPSToServer(location: locationManager.location)
     }
     
-    
     //  ----------------------- MapKit Initialization ------------------------
     func getLocation(manager: CLLocationManager!, didUpdateToLocation newLocation: CLLocation!, fromLocation oldLocation: CLLocation!) {
         
@@ -91,10 +74,7 @@ class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDe
     override func viewDidLoad() {
         //  Setting up websockets
         super.viewDidLoad()
-        /**
-        app_del.socket = WebSocket(url: URL(string: "ws://sabretestserver.herokuapp.com/:42864")!, protocols: ["sabre"])
-        app_del.socket.connect()
-        **/
+
         userName.delegate = self
         
         //  Setting up MapKit
@@ -112,8 +92,7 @@ class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDe
         
         getLocation(manager: locationManager!, didUpdateToLocation: locationManager.location!, fromLocation: locationManager.location!)
         
-        //  Setting up MapView
-        
+        //  Setting up MapView for ViewController
         splashMap.delegate = self
         splashMap.setUserTrackingMode(MKUserTrackingMode.follow, animated: true)
         
