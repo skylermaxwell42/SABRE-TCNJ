@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69823EA42044B923001BDC85 /* SplashLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69823EA32044B923001BDC85 /* SplashLoginController.swift */; };
 		69AAF68E20420BD400D4C7D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AAF68D20420BD400D4C7D5 /* AppDelegate.swift */; };
 		69AAF69020420BD400D4C7D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AAF68F20420BD400D4C7D5 /* ViewController.swift */; };
 		69AAF69320420BD400D4C7D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69AAF69120420BD400D4C7D5 /* Main.storyboard */; };
@@ -17,11 +18,11 @@
 		69CD12B42042D0DE00AC9BB7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CD12B02042D0DE00AC9BB7 /* MainViewController.swift */; };
 		69CD12B52042D0DE00AC9BB7 /* EnemyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CD12B12042D0DE00AC9BB7 /* EnemyInfoViewController.swift */; };
 		69F657702042DAD8008F42F3 /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6576F2042DAD8008F42F3 /* SwipeViewController.swift */; };
-		E2C93F596BFCA4C600468DDB /* Pods_SABRE_TCNJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077FD4F32A5BA14591ACD994 /* Pods_SABRE_TCNJ.framework */; };
+		E00DA1C2E1D22DBC245F8D81 /* Pods_SABRE_TCNJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D887AF9161FD47A614AEC4D8 /* Pods_SABRE_TCNJ.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		077FD4F32A5BA14591ACD994 /* Pods_SABRE_TCNJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SABRE_TCNJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69823EA32044B923001BDC85 /* SplashLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashLoginController.swift; sourceTree = "<group>"; };
 		69AAF68A20420BD400D4C7D5 /* SABRE-TCNJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SABRE-TCNJ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69AAF68D20420BD400D4C7D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69AAF68F20420BD400D4C7D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,8 +35,9 @@
 		69CD12B02042D0DE00AC9BB7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		69CD12B12042D0DE00AC9BB7 /* EnemyInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyInfoViewController.swift; sourceTree = "<group>"; };
 		69F6576F2042DAD8008F42F3 /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
-		EA790D7900A893B3143AAB2B /* Pods-SABRE-TCNJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SABRE-TCNJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SABRE-TCNJ/Pods-SABRE-TCNJ.debug.xcconfig"; sourceTree = "<group>"; };
-		FAF842C957E24465C62AAAC6 /* Pods-SABRE-TCNJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SABRE-TCNJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-SABRE-TCNJ/Pods-SABRE-TCNJ.release.xcconfig"; sourceTree = "<group>"; };
+		6D66CCF89EB3F1F3E00DDFD5 /* Pods-SABRE-TCNJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SABRE-TCNJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-SABRE-TCNJ/Pods-SABRE-TCNJ.release.xcconfig"; sourceTree = "<group>"; };
+		BD39C92183254396A694EF24 /* Pods-SABRE-TCNJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SABRE-TCNJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SABRE-TCNJ/Pods-SABRE-TCNJ.debug.xcconfig"; sourceTree = "<group>"; };
+		D887AF9161FD47A614AEC4D8 /* Pods_SABRE_TCNJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SABRE_TCNJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,26 +45,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2C93F596BFCA4C600468DDB /* Pods_SABRE_TCNJ.framework in Frameworks */,
+				E00DA1C2E1D22DBC245F8D81 /* Pods_SABRE_TCNJ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01647EE50BCADF281ED312BB /* Frameworks */ = {
+		50DEA999C482F8E50AA66288 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				077FD4F32A5BA14591ACD994 /* Pods_SABRE_TCNJ.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		15C66A6D96B72D7D09D4B8F8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EA790D7900A893B3143AAB2B /* Pods-SABRE-TCNJ.debug.xcconfig */,
-				FAF842C957E24465C62AAAC6 /* Pods-SABRE-TCNJ.release.xcconfig */,
+				BD39C92183254396A694EF24 /* Pods-SABRE-TCNJ.debug.xcconfig */,
+				6D66CCF89EB3F1F3E00DDFD5 /* Pods-SABRE-TCNJ.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -72,8 +66,8 @@
 			children = (
 				69AAF68C20420BD400D4C7D5 /* SABRE-TCNJ */,
 				69AAF68B20420BD400D4C7D5 /* Products */,
-				15C66A6D96B72D7D09D4B8F8 /* Pods */,
-				01647EE50BCADF281ED312BB /* Frameworks */,
+				50DEA999C482F8E50AA66288 /* Pods */,
+				78E39203CD71AB6378AE4AA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +89,7 @@
 				69CD12B02042D0DE00AC9BB7 /* MainViewController.swift */,
 				69AAF68F20420BD400D4C7D5 /* ViewController.swift */,
 				69AAF69120420BD400D4C7D5 /* Main.storyboard */,
+				69823EA32044B923001BDC85 /* SplashLoginController.swift */,
 				69AAF69920420BD400D4C7D5 /* Info.plist */,
 				69F6576F2042DAD8008F42F3 /* SwipeViewController.swift */,
 			);
@@ -111,6 +106,14 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		78E39203CD71AB6378AE4AA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D887AF9161FD47A614AEC4D8 /* Pods_SABRE_TCNJ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,12 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69AAF69C20420BD400D4C7D5 /* Build configuration list for PBXNativeTarget "SABRE-TCNJ" */;
 			buildPhases = (
-				AB3F9705219880C680ACBBAA /* [CP] Check Pods Manifest.lock */,
+				FE54B215E4AF3428AD904414 /* [CP] Check Pods Manifest.lock */,
 				69AAF68620420BD400D4C7D5 /* Sources */,
 				69AAF68720420BD400D4C7D5 /* Frameworks */,
 				69AAF68820420BD400D4C7D5 /* Resources */,
-				B6E7C07CE54D0A8F975316C4 /* [CP] Embed Pods Frameworks */,
-				1176CE09EEEE56F17FA39186 /* [CP] Copy Pods Resources */,
+				6FFC3104F502AFDDAB47B705 /* [CP] Embed Pods Frameworks */,
+				BDC399DD8D9A4AC8F6D376DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,40 +185,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1176CE09EEEE56F17FA39186 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SABRE-TCNJ/Pods-SABRE-TCNJ-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AB3F9705219880C680ACBBAA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SABRE-TCNJ-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B6E7C07CE54D0A8F975316C4 /* [CP] Embed Pods Frameworks */ = {
+		6FFC3104F502AFDDAB47B705 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -241,6 +211,39 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SABRE-TCNJ/Pods-SABRE-TCNJ-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BDC399DD8D9A4AC8F6D376DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SABRE-TCNJ/Pods-SABRE-TCNJ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE54B215E4AF3428AD904414 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SABRE-TCNJ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -254,6 +257,7 @@
 				69AAF68E20420BD400D4C7D5 /* AppDelegate.swift in Sources */,
 				69CD12B32042D0DE00AC9BB7 /* FriendlyUnitInfoViewController.swift in Sources */,
 				69F657702042DAD8008F42F3 /* SwipeViewController.swift in Sources */,
+				69823EA42044B923001BDC85 /* SplashLoginController.swift in Sources */,
 				69CD12B42042D0DE00AC9BB7 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,7 +393,7 @@
 		};
 		69AAF69D20420BD400D4C7D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA790D7900A893B3143AAB2B /* Pods-SABRE-TCNJ.debug.xcconfig */;
+			baseConfigurationReference = BD39C92183254396A694EF24 /* Pods-SABRE-TCNJ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -405,7 +409,7 @@
 		};
 		69AAF69E20420BD400D4C7D5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAF842C957E24465C62AAAC6 /* Pods-SABRE-TCNJ.release.xcconfig */;
+			baseConfigurationReference = 6D66CCF89EB3F1F3E00DDFD5 /* Pods-SABRE-TCNJ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

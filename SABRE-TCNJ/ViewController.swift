@@ -56,7 +56,7 @@ class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDe
         let userStartComsToServer = String(data: userStartJSON, encoding: .utf8)
         app_del.socket.write(string: userStartComsToServer!)
     }
-    
+ 
     //  ---------------------- Recieve Data From Server ---------------------
     @objc func updateGameState() {
         sendGPSToServer(location: locationManager.location)
